@@ -11,7 +11,12 @@ En cuanto a sus **usos**, en GitHub podemos:
 5. **Gestión de proyectos con varios colaboradores**: Podemos crear **issues** que son tareas que podemos designar a una parte del proyecto y que podemos asignarles a cada usuario/colaborador. De esta forma, podemos tener una mejor organización de tareas y seguimiento del progreso del proyecto.
 
 ## Pasos a seguir
-### Crear repositorios
-1. Hago clic en NEW
-2. 
+### Crear repositorios y guardar nuestros proyectos
+Hago clic en NEW ==>  
+![Mi foto](../img_UD1/newrepo.png)  
+Le pongo el nombre al repositorio y lo inicializo con README ==>
+Resultado final ==>
+Subo archivos al repositorio (Add File -> Upload Files) ==>
+Arrastro el archivo y hago COMMIT ==>
 
+ 
