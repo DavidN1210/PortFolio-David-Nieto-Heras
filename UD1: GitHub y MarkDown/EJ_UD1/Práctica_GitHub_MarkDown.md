@@ -6,7 +6,8 @@
 En cuanto a sus **usos**, en GitHub podemos:
 1. **Crear repositorios**: en GitHub podemos guardar nuestros proyectos atraves de los **repositorios**.
 2. **Actualizar nuestro proyectos**: a traves de los COMMITS podemos ir confirmando los cambios y actualizando nuestros proyectos.
-3. **Crear y adminsitrar ramas**: podemos crear varias ramas en nuestro repositorio.
+3. **Registrar los cambios**: en cada repositorio podemos acceder a historial un commits (todos los cambios realizados en el proyecto desde que se creo).
+4. **Crear y adminsitrar ramas**: podemos crear varias ramas en nuestro repositorio.
 5. **Colaborar con otros usuarios**: podemos colaborar con otros usuarios y dejar que modifiquen nuestro repositorio o trabajar en un proyecto juntos (cada uno puede tener su propia rama y luego fusionarlas). 
 
 ## Pasos a seguir
@@ -21,10 +22,15 @@ Subo archivos al repositorio (Add File -> Upload Files) ==>
 ![Add](../img_UD1/addfile.png)  
 Arrastro el archivo y hago COMMIT ==>  
 ![Commit](../img_UD1/arrastroyhagocomit.png)  
-Repositorio con los cambios realizados ==>
-![Cambios realizados](../img_UD1/.png) 
-#### Actualizar nuestros proyectos
-Cade vez que hacemos un cambio en el repositorio hacemos un commit. Para acceder al historial de commits tenemos que:
+Repositorio con los cambios realizados ==>  
+![Cambios realizados](../img_UD1/cambiosrepo.png)  
+### Actualizar nuestros proyectos  
+Cada vez que hacemos un cambio en el repositorio hacemos un commit. Para acceder al historial de commits tenemos que hacer _click_ donde indica la imagen ==>  
+![Cambios realizados](../img_UD1/cambiosrepo.png)  
+Y ya podriamos ver el historia de commits ==>
+![Cambios realizados](../img_UD1/cambiosrepo.png)  
+
+
 
 
  
