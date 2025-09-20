@@ -32,7 +32,8 @@ Y ya podriamos ver el historial de commits ==>
 ### 3. Crear y administrar ramas  
 Para crear una rama tenemos que abrir la pestaña de las ramas y hacer _click_ en **View all branches** ==> En la nueva página pulsamos en **New branch** y creamos la rama ==> Nueva rama creada
 
-![Historial](../img_UD1/historialcommits.png)  ![Historial](../img_UD1/historialcommits.png)   ![Historial](../img_UD1/historialcommits.png)  ![Historial](../img_UD1/historialcommits.png)  
+![Ver ramas](../img_UD1/viewallbranches.png)  ![Crear segunda rama](../img_UD1/segundarama.png)  
+![Rama creada](../img_UD1/historialcommits.png)  ![Historial](../img_UD1/historialcommits.png)  
 
 ### 4. Colaborar con otros usuarios
 
