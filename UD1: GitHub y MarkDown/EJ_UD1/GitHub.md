@@ -74,4 +74,7 @@ Para añadir colaboradores a nuestro repositorio, tenemos que ir a Settings y ha
  Luego para añadir a los colaboredores pulsamos en Add people, buscamos al usuario de GitHub que queremos añadir y hacemos click en Add to repository para añadirlo en nuestro repositorio==>
 
 ![Añadir colaboradores](../img_UD1/addpeople.png)
+
+## Conclusión
+En conclusión, GitHub es una herramienta fundamental para los desarrolladores, ya que no solo permite guardar y gestionar proyectos, sino también trabajar de forma colaborativa en ellos. Gracias a sus funciones principales (crear repositorios, los commits, crear ramas y fusionarlas, tener acceso a un historial de cambios y la posibilidad de colaboración con otros usuarios), GitHub facilita la organización, el seguimiento y la integración del trabajo en equipo.
  
