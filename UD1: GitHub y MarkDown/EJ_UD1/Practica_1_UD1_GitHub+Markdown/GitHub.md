@@ -14,66 +14,66 @@ En cuanto a sus **usos**, en GitHub podemos:
 ### 1. Crear repositorios y guardar nuestros proyectos
 Hago clic en NEW ==> 
 
-![New](../img_UD1/newrepo.png) 
+![New](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/newrepo.png) 
 
 Le pongo el nombre al repositorio, lo inicializo con README y creo el repositorio pulsando en Create repository==>
 
-![Nombre](../img_UD1/nombrerepo.png)  ![Resultado](../img_UD1/creorepo.png)  
+![Nombre](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/nombrerepo.png)  ![Resultado](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/creorepo.png)  
 
 Una vez con el repositorio creado, puedo subir archivos al repositorio (Add File -> Upload Files) ==>  
 
-![Add](../img_UD1/addfile.png)  
+![Add](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/addfile.png)  
 
 Arrastro el archivo y hago COMMIT ==>  
 
-![Commit](../img_UD1/arrastroyhagocomit.png)
+![Commit](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/arrastroyhagocomit.png)
 
 Finalmente podemos ver el repositorio con los cambios realizados ==>  
 
-![Cambios realizados](../img_UD1/cambiosrepo.png)  
+![Cambios realizados](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/cambiosrepo.png)  
 
 ### 2. Actualizar nuestros proyectos y acceder al registro de los cambios
 Cada vez que hacemos un cambio en el repositorio hacemos un commit. Para acceder al historial de commits tenemos que hacer _click_ donde indica la imagen ==>  
 
-![AccesoHistorial](../img_UD1/historialacceso.png)
+![AccesoHistorial](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/historialacceso.png)
 
 Y ya podriamos ver el historial de commits ==>  
 
-![Historial](../img_UD1/historialcommits.png)  
+![Historial](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/historialcommits.png)  
 
 ### 3. Crear y fusionar ramas  
 Para crear una rama tenemos que abrir la pestaña de las ramas y hacer _click_ en **View all branches** ==>
 
-![Ver ramas](../img_UD1/viewallbranches.png) 
+![Ver ramas](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/viewallbranches.png) 
 
 En la nueva página pulsamos en **New branch** y creamos la rama ==> 
 
-![Crear segunda rama](../img_UD1/segundarama.png)  
+![Crear segunda rama](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/segundarama.png)  
 
 Nueva rama creada ==>
 
-![Rama creada](../img_UD1/segundacreada.png)
+![Rama creada](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/segundacreada.png)
 
 Luego para fusionar una rama secundaria con la principal, tengo que hacer un cambio en la secundaria (segunda rama) para que me salga la opcion de hacer el pull request (Compare & Pullrequest) ==> 
 
-![Cambios en la segunda rama](../img_UD1/ramacambios.png) 
+![Cambios en la segunda rama](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/ramacambios.png) 
 
 Despues de pulsar en Compare & Pullrequest, creo el pull request ==>
 
-![Pull request](../img_UD1/pullmerge.png)  
+![Pull request](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/pullmerge.png)  
 
 Después de hacer click en Merge pull request, confirmo el merge y podemos ver que las la ramas se han fusionado y en el main se han hecho los cambios que he hecho en la rama secundaria anteriormente ==>
 
-![Rama creada](../img_UD1/cambiosprirama.png)
+![Rama creada](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/cambiosprirama.png)
 
 ### 4. Colaborar con otros usuarios
 Para añadir colaboradores a nuestro repositorio, tenemos que ir a Settings y hacer click en Collaborators==>
 
-![Settings](../img_UD1/settingscolab.png)
+![Settings](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/settingscolab.png)
 
  Luego para añadir a los colaboredores pulsamos en Add people, buscamos al usuario de GitHub que queremos añadir y hacemos click en Add to repository para añadirlo en nuestro repositorio==>
 
-![Añadir colaboradores](../img_UD1/addpeople.png)
+![Añadir colaboradores](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/img_UD1/addpeople.png)
 
 ## Conclusión
 En conclusión, GitHub es una herramienta fundamental para los desarrolladores, ya que no solo permite guardar y gestionar proyectos, sino también trabajar de forma colaborativa en ellos. Gracias a sus funciones principales (crear repositorios, los commits, crear ramas y fusionarlas, tener acceso a un historial de cambios y la posibilidad de colaboración con otros usuarios), GitHub facilita la organización, el seguimiento y la integración del trabajo en equipo.
