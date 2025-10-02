@@ -1,0 +1,23 @@
+# Archivos con contraseñas / configuraciones privadas
+.env
+*.env
+config.local.*
+*.secret.*
+
+# Logs y temporales
+*.log
+*.tmp
+*.swp
+
+# Binarios y compilados
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.class
+
+# Directorios de build/dist
+dist/
+build/
+out/
