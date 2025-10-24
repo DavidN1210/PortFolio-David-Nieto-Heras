@@ -2,12 +2,12 @@
 ### Práctica 1: Práctica GitHub + MarkDown
 En esta práctica, he creado redacta el documento "GitHub.md", con GitHub, donde he explicado las diferentes funciones de GitHub y con los pasos a seguir para utilizar dichas funciones
 
-**Enlace:**  [Practica 1](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/tree/main/UD1%3A%20GitHub%20y%20MarkDown/EJ_UD1/Practica_1_UD1_GitHub%2BMarkdown)
+**Enlace:**  [Practica 1](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/EJ_UD1/Practica_1_UD1_GitHub%2BMarkdown/GitHub.md)
 
 ### Práctica Markdown
 En esta práctica, en un Readme.md de otro repositorio, he imitado el pdf del ejercicio utilizando Markdown
 
-**Enlace:** [Practica Markdown](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/tree/main/UD1%3A%20GitHub%20y%20MarkDown/EJ_UD1/Markdown%20P2)
+**Enlace:** [Practica Markdown](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD1%3A%20GitHub%20y%20MarkDown/EJ_UD1/Markdown%20P2/p2markdownReadme.md)
 
 ### Práctica 2: Evaluación y uso de un generador de documentación
 En esta práctica, he comparado varios generadores de documentación de varios lenguajes y he utilizado uno de ellos (JavaDoc) en una de mis proyectos del año pasado, documentando el proceso.
