@@ -60,7 +60,39 @@ Instalo las dependencias con el comando:
 
 ![Dependencias](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/dependencias.png)
 
-### Añado el repositorio de Docker y instalo DockerDesktop
+### Instalación de Docker Desktop y Verificación
+Para la instalación, primero el comando `wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb`, el cual descarga el instalador de Docker Desktop para Linux en formato .deb directamente desde los servidores oficiales de Docker.
+
+![Instalador](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/instalador.png)
+
+Luego, lo instalo definitivamente con `sudo apt install ./docker-desktop-amd64.deb`
+
+![Instalar Docker](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/instalardocker.png)
+
+Para comprobar que Docker se ha instalado correctamente utilizo: `docker --version` (muestra la versión de docker que he instalado) y `sudo docker run hello-world` (se ejecuta un contenedor de prueba llamado hello-world para verificar que Docker funcione correctamente)
+
+![Comprobación Docker](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/prueba.png)
+
+## Instalación de contenedores de servidor web y de aplicaciones
+
+1. Utilizo dos comandos (`sudo docker search nginx` y `sudo docker search tomcat`) para buscar imágenes oficiales en Docker Hub, el repositorio público de contenedores.
+
+![Imagenes](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/img.png)
+
+2. Descargo y iniciar los contenedores con los comandos: `sudo docker run -d -p 8080:80 --name webserver nginx` y `sudo docker run -d -p 8081:8080 --name appserver tomcat`
+
+![Contenedores](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/contenedores.png)
+
+3. Verifico si funciona, visulizando los contenedores activos, con el comando `sudodocker ps`
+
+![Comprobación Contenedores](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/verificar_contenedores.png)
+
+4. Ahora si pongo en el navegador estas las url http://localhost:8080 (Nginx) y http://localhost:8081 (Tomcat), puedo ver que los contenedores que hemos instalado están funcionando correctamente
+
+![Comprobación Contenedores](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/navegador.png)
+
+##  Requerimientos mínimos para implantar una aplicación web
+
 
 
 
