@@ -89,7 +89,7 @@ Para comprobar que Docker se ha instalado correctamente utilizo: `docker --versi
 
 4. Ahora si pongo en el navegador estas las url http://localhost:8080 (Nginx) y http://localhost:8081 (Tomcat), puedo ver que los contenedores que hemos instalado están funcionando correctamente
 
-![Comprobación Contenedores](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/navegador.png)
+![Comprobación en el navegador](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD2%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20web/EJ_UD2/Iniciaci%C3%B3n%20a%20la%20Virtualizaci%C3%B3n/img_UD2/navegador.png)
 
 ##  Requerimientos mínimos para implantar una aplicación web
 
