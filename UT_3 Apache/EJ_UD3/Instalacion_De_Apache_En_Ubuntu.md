@@ -10,10 +10,14 @@ Aunque Apache sigue siendo utilizado, podemos distinguir otras alternativas:
 
 ![Servidores Web](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/alternativas_a_apache.png)
 
+
+
 # Instalacion de Apache
-Luego de actualizar el sistema, instalo Apache con el comando `sudo apt install apache2 -y`
+Luego de todo el proceso de instalacuión de apache comprobamos que todo funciona:
 
-![Instalar Apache](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/install_apache.png)
+![It works!](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/localhost_itworks.png)
 
+# Configuración de Apache
 
+  
 
