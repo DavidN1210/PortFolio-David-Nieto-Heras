@@ -1,4 +1,6 @@
 # Instalación y Configuración de Apache en Ubuntu
+## Resumen 
+
 ## Introducción
 
 Apache es un software de servidor web gratuito y de código abierto que se utiliza principalmente para alojar sitios web y aplicaciones. Como todo servidor web es responsable de atender las solicitudes de los clientes cuando quieren consultar una URL. Apache está atento a las solicitudes, que llegan mediante el protocolo HTTP y se encarga de enviar las respuestas a los clientes. 
@@ -49,11 +51,22 @@ Como podemos ver ahora sí funciona:
 
 ![Si funciona](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/resultado_sifunciona.png)
 
+## Conclusión y Valoración Personal
+La instalación y configuración de Apache en Ubuntu permite comprender de forma práctica como funciona uno de los servidores web más importantes y utilizados. A través de este proceso, desde la creacion de un sitio web hasta la configuración de hosts virtuales, se demuestra la capacidad de Apache para gestionar proyectos en un mismo servidor. Además, cabe resaltar la importancia de entender la relación entre los archivos de configuración, el DNS y localhost para dar una solución a los problemas vistos durante la implementación.
+
+Realizar este trabajo ha sido una gran experiencia, porque me permitió no solo conocer los pasos para instalar y configurar Apache en Ubuntu, sino tambien aprender a desplegar una aplicación web. La parte que más me gusto fue ver el código implementado y cada configuración que hizo lo posible.
+
 ## Bibliografía
 
 [https://axarnet.es/blog/que-es-apache](https://axarnet.es/blog/que-es-apache)
 
 [https://www.arsys.es/blog/que-es-apache-y-para-que-sirve](https://www.arsys.es/blog/que-es-apache-y-para-que-sirve)
+
+[https://ubuntu.com/tutorials/install-and-configure-apache#1-overview](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)
+
+[https://foro.puntocomunica.com/viewtopic.php?t=312](https://foro.puntocomunica.com/viewtopic.php?t=312)
+
+
 
 
 
