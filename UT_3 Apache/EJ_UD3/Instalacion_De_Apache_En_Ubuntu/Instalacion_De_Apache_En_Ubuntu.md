@@ -1,6 +1,4 @@
 # Instalación y Configuración de Apache en Ubuntu
-## Resumen 
-
 ## Introducción
 
 Apache es un software de servidor web gratuito y de código abierto que se utiliza principalmente para alojar sitios web y aplicaciones. Como todo servidor web es responsable de atender las solicitudes de los clientes cuando quieren consultar una URL. Apache está atento a las solicitudes, que llegan mediante el protocolo HTTP y se encarga de enviar las respuestas a los clientes. 
