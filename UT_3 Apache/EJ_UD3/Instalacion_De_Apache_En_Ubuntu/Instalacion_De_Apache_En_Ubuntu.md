@@ -1,7 +1,12 @@
 # Instalación y Configuración de Apache en Ubuntu
-## Introducción
+## Resumen
+Este proyecto documenta el proceso de instalación y configuración del servidor web Apache en el sistema operativo Ubuntu, centrándose en el despliegue de un sitio web personalizado. Se explica la naturaleza de Apache como servidor de código abierto y sus funciones principales, incluyendo la atención de solicitudes HTTP. El trabajo detalla paso a paso la creación de un Virtual Host para el dominio gci.example.com, demostrando la capacidad de Apache para gestionar múltiples proyectos. Además, se documenta la resolución de un problema de acceso al dominio mediante la modificación del archivo /etc/hosts. La experiencia culmina con una valoración personal que resalta la importancia de comprender la interacción entre la configuración del servidor y la resolución de nombres local.
 
-Apache es un software de servidor web gratuito y de código abierto que se utiliza principalmente para alojar sitios web y aplicaciones. Como todo servidor web es responsable de atender las solicitudes de los clientes cuando quieren consultar una URL. Apache está atento a las solicitudes, que llegan mediante el protocolo HTTP y se encarga de enviar las respuestas a los clientes. 
+## Palabras Clave
+Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTP, Linux, Despliegue, gci.example.com, index.html.
+
+## Introducción
+Utilizaremos Apache que es un software de servidor web gratuito y de código abierto que se utiliza principalmente para alojar sitios web y aplicaciones. Como todo servidor web es responsable de atender las solicitudes de los clientes cuando quieren consultar una URL. Apache está atento a las solicitudes, que llegan mediante el protocolo HTTP y se encarga de enviar las respuestas a los clientes. 
 
 Nació en 1995 como una mejora del servidor web NCSA HTTPd. En aquel momento, la mayoría de los servidores web eran software propietario o tenían muchas limitaciones. Apache cambió esto ofreciendo una alternativa de código abierto, gratuita y con una comunidad activa que mejoraba constantemente su funcionamiento.
 Durante años, Apache fue el servidor web más utilizado del mundo y aún hoy sigue siendo una opción sólida para muchos proyectos web.
@@ -9,6 +14,8 @@ Durante años, Apache fue el servidor web más utilizado del mundo y aún hoy si
 Aunque Apache sigue siendo utilizado, podemos distinguir otras alternativas: 
 
 ![Servidores Web](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/alternativas_a_apache.png)
+
+El **motivo principal** de este proyecto es la adquisición de competencias prácticas en la administración de servidores web. Nos basamos en Apache  para comprender de forma integral su arquitectura, desde la instalación inicial hasta la configuración avanzada de Virtual Hosts. El objetivo final es conseguir la capacidad de desplegar, gestionar y diagnosticar problemas en un entorno de servidor real
 
 # Instalacion de Apache
 Luego de todo el proceso de instalacuión de apache comprobamos que todo funciona:
