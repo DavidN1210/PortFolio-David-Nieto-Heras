@@ -9,4 +9,4 @@ En cuanto a su funcionamiento, HTTPS utiliza un protocolo de encriptación para 
 * **Autofirmados:** son aquellos firmados por el propietario del servidor. Estos certificados muestran una notificación en el navegador de que el sitio no está protegido y, por tanto, no es seguro visitarlo sin realizar previamente las comprobaciones básicas, ya que son muy utilizados para fraudes online.
 * **CA confiable:** son aquellos firmados por una Autoridad de Certificación (CA). La CA verifica la identidad de una página web, empresa o persona y asegura que la comunicación entre el servidor y el usuario se realice de forma cifrada y segura. Cuando visitamos una página con el prefijo HTTPS, significa que existe un certificado digital válido emitido por una CA.
 ### Módulos para hablilitar SSL/TLS
-Solo se necesita el módulo mod_ssl
+Solo se necesita el módulo mod_ssl y mod_headers
