@@ -5,7 +5,17 @@ Este proyecto documenta el proceso de instalación y configuración del servidor
 ## Palabras Clave
 Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTP, Linux, Despliegue, gci.example.com, index.html.
 
+## Índice 
+1. **Introducción**
+2. **Instalación de Apache**
+3. **Confuguración de Apache**
+4. **Conclusión y Valoración Personal**
+5. **Bibliografía y Anexos**
+
 ## Introducción
+
+Este proyecto se realizará como parte de las actividades formativas del IES Juan Bosco, especificamente en el módulo de Despligue de Aplicacones Web del ciclo de DAW (Desarrollo de Aplicaciones Web). El trabajo se concibe como una simulación de despliegue real, en la que el objetivo es adquirir experiencia práctica en la administración de servicios web. El proyecto se lleva a cabo en clase, utilizando una máquina virtual con el sistema operativo de Ubuntu 24.04 LTS.
+
 Utilizaremos Apache que es un software de servidor web gratuito y de código abierto que se utiliza principalmente para alojar sitios web y aplicaciones. Como todo servidor web es responsable de atender las solicitudes de los clientes cuando quieren consultar una URL. Apache está atento a las solicitudes, que llegan mediante el protocolo HTTP y se encarga de enviar las respuestas a los clientes. 
 
 Nació en 1995 como una mejora del servidor web NCSA HTTPd. En aquel momento, la mayoría de los servidores web eran software propietario o tenían muchas limitaciones. Apache cambió esto ofreciendo una alternativa de código abierto, gratuita y con una comunidad activa que mejoraba constantemente su funcionamiento.
@@ -15,7 +25,7 @@ Aunque Apache sigue siendo utilizado, podemos distinguir otras alternativas:
 
 ![Servidores Web](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/alternativas_a_apache.png)
 
-El **motivo principal** de este proyecto es la adquisición de competencias prácticas en la administración de servidores web. Nos basamos en Apache  para comprender de forma integral su arquitectura, desde la instalación inicial hasta la configuración avanzada de Virtual Hosts. El objetivo final es conseguir la capacidad de desplegar, gestionar y diagnosticar problemas en un entorno de servidor real
+El **motivo principal** de este proyecto es la adquisición de competencias prácticas en la administración de servidores web. Nos basamos en Apache  para comprender de forma integral su arquitectura, desde la instalación inicial hasta la configuración avanzada de Virtual Hosts. El objetivo final es conseguir la capacidad de desplegar, gestionar y diagnosticar problemas en un entorno de servidor real.
 
 # Instalacion de Apache
 Luego de todo el proceso de instalacuión de apache comprobamos que todo funciona:
@@ -61,7 +71,7 @@ La instalación y configuración de Apache en Ubuntu permite comprender de forma
 
 Realizar este trabajo ha sido una gran experiencia, porque me permitió no solo conocer los pasos para instalar y configurar Apache en Ubuntu, sino tambien aprender a desplegar una aplicación web. La parte que más me gusto fue ver el código implementado y cada configuración que hizo lo posible.
 
-## Bibliografía
+## Bibliografía y Anexos
 
 [https://axarnet.es/blog/que-es-apache](https://axarnet.es/blog/que-es-apache)
 
