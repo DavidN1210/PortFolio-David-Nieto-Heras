@@ -1,4 +1,5 @@
 # Instalación y Configuración de Apache en Ubuntu
+![Img Inicio](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/apache_img.jpg)
 ## Resumen
 Este proyecto documenta el proceso de instalación y configuración del servidor web Apache en el sistema operativo Ubuntu, centrándose en el despliegue de un sitio web personalizado. Se explica la naturaleza de Apache como servidor de código abierto y sus funciones principales, incluyendo la atención de solicitudes HTTP. El trabajo detalla paso a paso la creación de un Virtual Host para el dominio gci.example.com, demostrando la capacidad de Apache para gestionar múltiples proyectos. Además, se documenta la resolución de un problema de acceso al dominio mediante la modificación del archivo /etc/hosts. La experiencia culmina con una valoración personal que resalta la importancia de comprender la interacción entre la configuración del servidor y la resolución de nombres local.
 
