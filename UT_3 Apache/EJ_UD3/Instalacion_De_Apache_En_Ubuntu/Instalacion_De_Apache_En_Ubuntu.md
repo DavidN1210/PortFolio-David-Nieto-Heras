@@ -27,7 +27,7 @@ Aunque Apache sigue siendo utilizado, podemos distinguir otras alternativas:
 
 El **motivo principal** de este proyecto es la adquisición de competencias prácticas en la administración de servidores web. Nos basamos en Apache  para comprender de forma integral su arquitectura, desde la instalación inicial hasta la configuración avanzada de Virtual Hosts. El objetivo final es conseguir la capacidad de desplegar, gestionar y diagnosticar problemas en un entorno de servidor real.
 
-# Instalacion de Apache
+# Instalación de Apache
 Luego de todo el proceso de instalacuión de apache comprobamos que todo funciona:
 
 ![It works!](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/localhost_itworks.png)
