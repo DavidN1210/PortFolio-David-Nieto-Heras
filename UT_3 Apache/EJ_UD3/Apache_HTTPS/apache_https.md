@@ -9,4 +9,15 @@ En cuanto a su funcionamiento, HTTPS utiliza un protocolo de encriptación para 
 * **Autofirmados:** son aquellos firmados por el propietario del servidor. Estos certificados muestran una notificación en el navegador de que el sitio no está protegido y, por tanto, no es seguro visitarlo sin realizar previamente las comprobaciones básicas, ya que son muy utilizados para fraudes online.
 * **CA confiable:** son aquellos firmados por una Autoridad de Certificación (CA). La CA verifica la identidad de una página web, empresa o persona y asegura que la comunicación entre el servidor y el usuario se realice de forma cifrada y segura. Cuando visitamos una página con el prefijo HTTPS, significa que existe un certificado digital válido emitido por una CA.
 ### Módulos para hablilitar SSL/TLS
-Solo se necesita el módulo mod_ssl y mod_headers
+* `ssl`: habilita soporte para conexiones HTTPS.
+* `headers`: permite gestionar cabeceras HTTP (ej. seguridad, redirecciones).
+* `socache_shmcb`: requerido para almacenar información de certificados
+## Ejecución Técnica
+Durante esta práctica se llevó a cabo la implementación del protocolo HTTPS en un servidor Apache2 sobre Ubuntu, utilizando un certificado SSL/TLS autofirmado. A continuación se resumen los pasos realizados:
+### 1. Estado de Apache y Instalación de módulos
+Primero verificare el estado y funcionamiento de Apache (que instalamos en la práctica anterior) con `sudo systemctl status apache2`
+(Systemctl status)![]
+
+
+
+
