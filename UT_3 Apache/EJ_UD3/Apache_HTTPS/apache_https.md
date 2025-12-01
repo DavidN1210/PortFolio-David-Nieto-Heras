@@ -42,7 +42,16 @@ Como podemos ver en la imagen, luego de ejecutar el comando, no piden datos como
 ## 3. VirtualHost (Puerto 433)
 Para configurar el VirtualHost, creo un archivo de configuracion llamado daviddominio-ssl.conf con el siguiente comando `sudo nano /etc/apache2/sites-available/daviddominio-ssl.conf`. Después, le introduzco el contenido que podemos ver en la imagen:
 
-![VirtualHost 433](**https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/virtualhost_443.png)
+![VirtualHost 433](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/virtualhost_443.png)
+
+## 4. Dominio en Localhost
+Como no tengo un dominio real, edito /etc/hosts de forma que cuando busque daviddominio.com me rediriga a localhost. Para ello agrege la siguiente linea: `127.0.0.1 daviddominio.com`
+
+![VirtualHost 433](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/etchosts.png)
+
+## Prueba de acceso
+Para probar el funcionamiento, he intoducido `daviddominio.com` en el navegador
+
 
 
 
