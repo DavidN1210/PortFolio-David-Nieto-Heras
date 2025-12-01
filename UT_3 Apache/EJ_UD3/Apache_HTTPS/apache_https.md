@@ -16,7 +16,33 @@ En cuanto a su funcionamiento, HTTPS utiliza un protocolo de encriptación para 
 Durante esta práctica se llevó a cabo la implementación del protocolo HTTPS en un servidor Apache2 sobre Ubuntu, utilizando un certificado SSL/TLS autofirmado. A continuación se resumen los pasos realizados:
 ### 1. Estado de Apache y Instalación de módulos
 Primero verificare el estado y funcionamiento de Apache (que instalamos en la práctica anterior) con `sudo systemctl status apache2`
-(Systemctl status)![]
+
+![Systemctl status](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/systemctl_status.png)
+
+Y, a continuación instalaré los módulos:
+1. Módulo SSL:
+   
+![SSL](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/ssl_module.png)
+
+2. Módulo headers y socache_shmcb (ya están instalados):
+   
+![Modules](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/modules.png)
+
+Por último, reinicio Apache con `sudo systemctl restart apache2`.
+## 2. Generación del certificado autofirmado (Opción A)
+Al principio, creare una carpeta (`sudo mkdir /etc/apache2/ssl`) donde se almacenan los certificados SSL/TLS y las claves privadas que usarán Apache. Luego, generare el certificado correspondiente con `sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/apache2/ssl/apache.key \
+  -out /etc/apache2/ssl/apache.crt
+`
+
+![Certificado](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/sudo_openssl.png)
+
+Como podemos ver en la imagen, luego de ejecutar el comando, no piden datos como el país, provincia, correo... y la dirección del dominio que será **daviddominio.com**
+
+## 3. VirtualHost (Puerto 433)
+Para configurar el VirtualHost, creo un archivo de configuracion llamado daviddominio-ssl.conf con el siguiente comando `sudo nano /etc/apache2/sites-available/daviddominio-ssl.conf`. Después, le introduzco el contenido que podemos ver en la imagen:
+
+![VirtualHost 433](**https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/virtualhost_443.png)
 
 
 
