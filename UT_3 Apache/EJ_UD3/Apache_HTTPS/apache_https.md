@@ -1,4 +1,25 @@
-# Practica UT3 Apache: HTTPS
+# Práctica UT3 Apache: HTTPS
+
+![Imagen HTTPS](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/https.jpeg)
+
+## Resumen
+Este proyecto documenta el proceso de instalación y configuración del servidor web Apache en el sistema operativo Ubuntu, centrándose en la implementación de HTTPS mediante un certificado autofirmado. Se explica la naturaleza de Apache como servidor de código abierto y sus funciones principales, incluyendo la atención de solicitudes HTTP y HTTPS. El trabajo detalla paso a paso la creación de un Virtual Host para el dominio simulado `daviddominio.com`, demostrando la capacidad de Apache para gestionar sitios seguros incluso en entornos locales. Además, se documenta la resolución de un problema de acceso al dominio mediante la modificación del archivo /etc/hosts, lo que permitió simular la resolución de nombres sin necesidad de un dominio real. La experiencia culmina con una valoración personal que resalta la importancia de comprender la interacción entre la configuración del servidor, la gestión de certificados y la resolución de nombres local para garantizar un entorno de pruebas funcional y seguro.
+
+## Palabras Clave
+Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTPS, SSL, Certificado Autofirmado, Linux, Despliegue, daviddominio.com, /etc/hosts.
+
+## Índice 
+1. **Introducción**
+2. **Investigación**
+3. **Ejecución técnica**
+   1. Estado de Apache y Instalación de módulos
+   2. Generación del certificado autofirmado (Opción A)
+   3. VirtualHost (Puerto 433)
+   4. Dominio en Localhost
+   5. Prueba de acceso
+4. **Conclusión y Valoración Personal**
+5. **Bibliografía y Anexos**
+
 ## Investigación
 ### Funcionamiento y importancia del protocolo HTTPS
 HTTPS (Hypertext Transfer Protocol Secure) es la versión segura de HTTPS. Su objetivo, dentro de la seguridad web, es proteger la comunicación entre el cliente (navegador) y el servidor web utilizando cifrado, autenticación e integridad.
@@ -49,7 +70,7 @@ Como no tengo un dominio real, edito /etc/hosts de forma que cuando busque david
 
 ![Localhost](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/etchosts.png)
 
-## Prueba de acceso
+## 5. Prueba de acceso
 Para probar el funcionamiento, he introducido `daviddominio.com` en el navegador
 
 ![Navegador Alerta](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/navegador_aviso.png)
@@ -58,5 +79,26 @@ Como se puede ver en la imagen, en el navegador se nos alerta de el sitio no es 
 
 ![Navegador Resultado](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/img_UD3/itworks.png)
 
+## Conclusión, Valoración Personal y Dificultades encontradas
+La práctica permitió comprender de manera integral el proceso de instalación y configuración de Apache2 en Ubuntu, así como la implementación de HTTPS mediante un certificado autofirmado. Aunque inicialmente se intentó utilizar Let’s Encrypt, se evidenció la necesidad de contar con un dominio público y registrado para poder completar la validación. Ante esta limitación, se optó por la generación de un certificado autofirmado, lo que permitió activar el cifrado en el servidor y garantizar la seguridad de las comunicaciones en un entorno local. El resultado final fue satisfactorio, ya que se logró desplegar un sitio web accesible por HTTPS y verificar su correcto funcionamiento.
 
+La experiencia fue enriquecedora porque no solo implicó seguir instrucciones técnicas, sino también resolver problemas reales que surgen en la administración de servidores. El hecho de tener que cambiar de estrategia (de Let’s Encrypt a certificado autofirmado) me ayudó a entender mejor las diferencias entre entornos de producción y entornos de pruebas. Considero que este tipo de prácticas son fundamentales para adquirir confianza en la gestión de servicios web y en la seguridad de las comunicaciones. Además, me permitió valorar la importancia de conceptos como la resolución de nombres, la configuración de Virtual Hosts y la gestión de certificados.
+
+En cuanto a las dificultades que he tenido:
+
+* **Problema con el dominio:** el intento inicial con Let’s Encrypt falló porque el dominio daviddominio.com no estaba registrado ni tenía registros DNS válidos.
+
+* **Errores de validación en Certbot:** se recibieron mensajes de error relacionados con NXDOMAIN, lo que evidenció que la autoridad certificadora no podía verificar la propiedad del dominio.
+
+* **Advertencias del navegador:** al usar el certificado autofirmado, los navegadores mostraron alertas de seguridad, lo que puede resultar confuso si no se entiende la diferencia entre certificados confiables y autofirmados.
+
+## Bibliografía y Anexos
+
+[https://www.cloudflare.com/es-es/learning/ssl/what-is-https/](https://www.cloudflare.com/es-es/learning/ssl/what-is-https/)
+
+[https://www.ssl.com/es/art%C3%ADculo/ssl-tls-certificados-autofirmados/](https://www.ssl.com/es/art%C3%ADculo/ssl-tls-certificados-autofirmados/)
+
+[https://aws.amazon.com/es/what-is/ssl-certificate/](https://aws.amazon.com/es/what-is/ssl-certificate/)
+
+[https://cibersafety.com/certificate-authority-ca-seguridad/](https://cibersafety.com/certificate-authority-ca-seguridad/)
 
