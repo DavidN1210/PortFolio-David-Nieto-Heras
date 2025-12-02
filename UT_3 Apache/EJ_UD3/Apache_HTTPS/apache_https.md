@@ -21,11 +21,11 @@ Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTPS, SSL, Certifi
 5. **Bibliografía y Anexos**
 
 ## Introducción
-Este proyecto, realizado en el marco del módulo de Despliegue de Aplicaciones Web del ciclo de DAW en el IES Juan Bosco, tiene como objetivo adquirir experiencia práctica en la administración de servidores web mediante la implementación de HTTPS en un entorno controlado.
+Este proyecto se desarrolla en el IES Juan Bosco, dentro del módulo de Despliegue de Aplicaciones Web del ciclo de DAW (Desarrollo de Aplicaciones Web). El entorno de trabajo es una máquina virtual con Ubuntu 24.04 LTS, donde se instala y configura el servidor web Apache2.
 
-Se utiliza Apache2 en `Ubuntu 24.04 LTS`, configurando un Virtual Host para un dominio simulado (`daviddominio.com`) y resolviendo la falta de un dominio real mediante la modificación del archivo `/etc/hosts`. Para habilitar HTTPS se genera un certificado autofirmado con OpenSSL, lo que permite comprobar el funcionamiento del cifrado aunque con las advertencias propias de este tipo de certificados en los navegadores.
+Para comprender mejor la práctica, es necesario introducir el protocolo HTTP (Hypertext Transfer Protocol), que es el estándar utilizado para la transmisión de información en la web. HTTP permite que los navegadores soliciten páginas y recursos a los servidores, y que estos respondan con el contenido correspondiente. Fue creado en los años 90 por Tim Berners-Lee como parte del desarrollo de la World Wide Web, y desde entonces ha evolucionado hasta convertirse en la base de la comunicación en Internet. Posteriormente, surgió HTTPS, que añade seguridad mediante cifrado y autenticación, garantizando la integridad de los datos transmitidos.
 
-La práctica se concibe como una simulación de despliegue real, reproduciendo las fases necesarias para asegurar un sitio web: instalación de módulos, generación de certificados, configuración de Apache y verificación de acceso. Con ello se refuerza la comprensión de la seguridad en las comunicaciones y la gestión de certificados digitales, diferenciando entre entornos de prueba y producción.
+El motivo principal de este proyecto es adquirir competencias prácticas en la administración de servidores web, centrándose en la implementación de HTTPS para asegurar las comunicaciones entre cliente y servidor. La práctica busca simular un despliegue real, permitiendo al alumnado enfrentarse a situaciones comunes como la configuración de Virtual Hosts, la gestión de certificados digitales y la resolución de problemas de acceso a dominios.
 
 ## Investigación
 ### Funcionamiento y importancia del protocolo HTTPS
