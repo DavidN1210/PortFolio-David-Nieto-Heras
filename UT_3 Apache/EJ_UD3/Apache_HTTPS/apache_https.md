@@ -20,6 +20,13 @@ Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTPS, SSL, Certifi
 4. **Conclusión y Valoración Personal**
 5. **Bibliografía y Anexos**
 
+## Introducción
+Este proyecto, realizado en el marco del módulo de Despliegue de Aplicaciones Web del ciclo de DAW en el IES Juan Bosco, tiene como objetivo adquirir experiencia práctica en la administración de servidores web mediante la implementación de HTTPS en un entorno controlado.
+
+Se utiliza Apache2 en `Ubuntu 24.04 LTS`, configurando un Virtual Host para un dominio simulado (`daviddominio.com`) y resolviendo la falta de un dominio real mediante la modificación del archivo `/etc/hosts`. Para habilitar HTTPS se genera un certificado autofirmado con OpenSSL, lo que permite comprobar el funcionamiento del cifrado aunque con las advertencias propias de este tipo de certificados en los navegadores.
+
+La práctica se concibe como una simulación de despliegue real, reproduciendo las fases necesarias para asegurar un sitio web: instalación de módulos, generación de certificados, configuración de Apache y verificación de acceso. Con ello se refuerza la comprensión de la seguridad en las comunicaciones y la gestión de certificados digitales, diferenciando entre entornos de prueba y producción.
+
 ## Investigación
 ### Funcionamiento y importancia del protocolo HTTPS
 HTTPS (Hypertext Transfer Protocol Secure) es la versión segura de HTTPS. Su objetivo, dentro de la seguridad web, es proteger la comunicación entre el cliente (navegador) y el servidor web utilizando cifrado, autenticación e integridad.
