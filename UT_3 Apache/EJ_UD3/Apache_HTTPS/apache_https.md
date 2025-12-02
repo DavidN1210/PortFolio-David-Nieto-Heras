@@ -17,7 +17,7 @@ Apache, Servidor Web, Ubuntu, Configuración, Virtual Hosts, HTTPS, SSL, Certifi
    3. VirtualHost (Puerto 433)
    4. Dominio en Localhost
    5. Prueba de acceso
-4. **Conclusión y Valoración Personal**
+4. **Conclusión y Valoración Personal y Dificultades encontradas**
 5. **Bibliografía y Anexos**
 
 ## Introducción
