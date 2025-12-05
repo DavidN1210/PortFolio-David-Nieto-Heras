@@ -1,4 +1,4 @@
-# Identificación de archivos de configuración
+# Tomcat: Identificación de archivos de configuración
 
 ## Instalación de Tomcat
 Antes de nada, es necesario instalar Tomcat. Para ello, he utilizado los siguientes comandos en el siguiente orden:
