@@ -23,6 +23,15 @@ Para crear un archivo WAR he seguido los siguientes pasos:
 
 ![Despligue en Tomcat](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/desplegar_war.png)
 
+Aunque no lo notemos, Tomcat sigue los siguientes pasos para desplegar nuestra aplicación:
+
+    1. Detecta el WAR en webapps/.
+    2. Descomprime el archivo en webapps/HelloApp/.
+    3. Crea un contexto /HelloApp.
+    4. Aplica configuración global (conf/web.xml) y la específica (WEB-INF/web.xml).
+    5. Compila JSPs en servlets con Jasper.
+    6. Inicializa la aplicación y la marca como disponible
+
 7. Finalmente, puedo acceder a la aplicación a través del navegador con la siguiente ruta en localhost: `http://localhost:8080/HelloApp`
 
 ![Navegador Funcionamiento](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/hello_world.png)
