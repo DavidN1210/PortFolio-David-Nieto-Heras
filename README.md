@@ -9,5 +9,5 @@
 * [Diario UD3](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/diario_UD3.md)
 * [Ejercicios UD3](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/enlaces_UD3.md)
 ## Unidad 4: Tomcat
-* [Diario UD4](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/diario_UD3.md)
-* [Ejercicios UD4](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UT_3%20Apache/enlaces_UD3.md)
+* [Diario UD4](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/diario_UD4.md)
+* [Ejercicios UD4](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/enlaces_UD4.md)
