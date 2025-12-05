@@ -2,8 +2,8 @@
 
 ## Proceso de despliegue en Tomcat
 Para crear un archivo WAR he seguido los siguientes pasos:
-1. Creo una carpeta personal (`mkdir -p HelloApp/WEB-INF`)
-2. Dentro de la carpeta creada, creo un archivo JSP
+1. Creo una carpeta personal (`mkdir -p HelloApp/WEB-INF`), llamada HelloApp, que actuará como directorio raíz de la aplicación web y dentro de él una carpeta WEB-INF donde se guardan configuraciones y recursos protegidos.
+2. Dentro de la carpeta creada, creo un archivo JSP (`index.jsp`) que contiene el codigo que se va a mostrar al final en el navegador
 
 ![Archivo JSP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/archivoJSP.png)
 
@@ -19,7 +19,7 @@ Para crear un archivo WAR he seguido los siguientes pasos:
 
 ![Archivo WAR](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/jar_helloapp.png)
    
-6. Una vez empaquetado, puedo desplegarlo en Tomcat con el comando `sudo cp HelloApp.war /var/lib/tomcat10/webapps/`, en el que copio el WAR en la carpeta webapps
+6. Una vez empaquetado, puedo desplegarlo en Tomcat con el comando `sudo cp HelloApp.war /var/lib/tomcat10/webapps/`, en el que copio el WAR en la carpeta webapps. Tomcat despliegará automáticamente cualquier WAR que se encuentre en esa carpeta.
 
 ![Despligue en Tomcat](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/desplegar_war.png)
 
