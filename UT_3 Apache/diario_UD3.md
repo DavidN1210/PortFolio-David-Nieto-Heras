@@ -23,8 +23,3 @@ Me gustaría profundizar en:
 - Aplicación de **reglas de firewall** específicas para Apache.
 - Buenas prácticas de **monitorización y logs** para detectar accesos no deseados.
 
-## 📌 Conclusión y Valoración Personal
-La unidad me permitió comprender de manera práctica cómo funciona Apache y cómo se implementa HTTPS.  
-Aprendí a **instalar, configurar y desplegar sitios web** en Ubuntu, a manejar **Virtual Hosts**, y a resolver problemas de acceso mediante la edición de `/etc/hosts`.  
-La experiencia fue enriquecedora porque no solo seguí pasos técnicos, sino que también enfrenté dificultades reales (errores de certificados, problemas de DNS, advertencias del navegador).  
-Considero que estas prácticas son fundamentales para adquirir confianza en la administración de servidores y en la seguridad de las comunicaciones web.
