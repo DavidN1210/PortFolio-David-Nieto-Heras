@@ -67,13 +67,23 @@ sudo systemctl restart tomcat10
 ```
 ![Activacion SM](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
 
-## 5. Comprobación Final
+## 5. Comprobaciones
+### 5.1 Comprobación de funcionamiento tras inicar sesión
 Para comprobar que todo funciona correctamente, escribimos en el navegador la siguiente ruta: `http://localhost:8080/manager/html`. Luego, la página nos pedirá un nombre de usuario y su contraseña, que son aquellos que pusimos en tomcat-users.xml para iniciar sesión.
 
 ![Inicio sesión](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/inicio_sesion.png)
 
 Una vez inicie sesión, podemos ver que todo ha funcionado como se esperaba
 
-![Funcionamiento](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/com_final.png)
+![Funcionamiento Inicio Sesión](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/com_final.png)
+
+### 5.2 Comprobación de funcionamiento de la restricción de acceso al Manager
+Ya que el Manager solo puede acceder desde localhost (**http://localhost:8080/manager/html**, **http://127.0.0.1:8080/manager/html**), he probado con esas url fuera de la máquina virtual y como resultado se me niega el acceso:
+
+![Funcionamiento Acceso al Manager](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/conexion_rechazada.png)
+
+### 5.3 Comprobación HTTPS con el puerto 8443
+
+![Funcionamiento HTTPS](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/https_8443.png)
 
 
