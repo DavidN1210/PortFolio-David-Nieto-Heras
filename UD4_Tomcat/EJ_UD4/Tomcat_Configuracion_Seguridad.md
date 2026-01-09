@@ -70,10 +70,10 @@ sudo systemctl restart tomcat10
 ## 5. Comprobación Final
 Para comprobar que todo funciona correctamente, escribimos en el navegador la siguiente ruta: `http://localhost:8080/manager/html`. Luego, la página nos pedirá un nombre de usuario y su contraseña, que son aquellos que pusimos en tomcat-users.xml para iniciar sesión.
 
-![Inicio sesión](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
+![Inicio sesión](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/inicio_sesion.png)
 
 Una vez inicie sesión, podemos ver que todo ha funcionado como se esperaba
 
-![Funcionamiento](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
+![Funcionamiento](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/com_final.png)
 
 
