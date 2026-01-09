@@ -58,15 +58,22 @@ sudo systemctl restart tomcat10
 ![Catalina Policy](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/catalinaPolicy.png)
 
 ### 4.2 Activación del Security Manager
-Para activarlo es necesario editar en `/etc/default/tomcat10` y añadir/modificar la siguiente línea: `JAVA_OPTS="-Djava.awt.headless=true -Djava.security.manager -Djava.security.policy=/etc/tomcat10/catalina.policy"`
+Si quieres activarlo es necesario editar en `/etc/default/tomcat10` y añadir/modificar la siguiente línea: `JAVA_OPTS="-Djava.awt.headless=true -Djava.security.manager -Djava.security.policy=/etc/tomcat10/catalina.policy"`
 
 **Comandos utilizados:**
 ```bash
 sudo nano /etc/default/tomcat10
 sudo systemctl restart tomcat10
 ```
-
 ![Activacion SM](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
 
+## 5. Comprobación Final
+Para comprobar que todo funciona correctamente, escribimos en el navegador la siguiente ruta: `http://localhost:8080/manager/html`. Luego, la página nos pedirá un nombre de usuario y su contraseña, que son aquellos que pusimos en tomcat-users.xml para iniciar sesión.
+
+![Inicio sesión](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
+
+Una vez inicie sesión, podemos ver que todo ha funcionado como se esperaba
+
+![Funcionamiento](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/security_manager.png)
 
 
