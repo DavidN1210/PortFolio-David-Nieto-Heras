@@ -86,4 +86,8 @@ Ya que el Manager solo puede acceder desde localhost (**http://localhost:8080/ma
 
 ![Funcionamiento HTTPS](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/https_8443.png)
 
+En el caso de que ponga http, me aparece el siguiente mensaje: **Bad Request
+This combination of host and port requires TLS.**
+
+![Funcionamiento HTTPS](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/tls.png)
 
