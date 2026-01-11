@@ -18,9 +18,9 @@ sudo apt install wget gdebi-core -y
    
 ![Instalación](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/filezilla_comando_instalacion.png)
 
-3. Se nos pide introduce una contraseña
+3. Se nos pide introducir una contraseña
 
-![Contrasena](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/filezilla_password_config.png)
+![Contrasena](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/fillezilla_password_config.png)
 
 ```bash
 sudo dpkg -i filezilla-server.deb (nombre del paquete)
