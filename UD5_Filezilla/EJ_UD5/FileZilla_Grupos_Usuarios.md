@@ -14,6 +14,15 @@ Para crear un grupo tenemos que dirigirnos a la configuración de la interfaz de
 
 ![Grupo Creación 2](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/creacion_grupo_parte1.png)
 
+5. Creo el directorio /srv/ftp/grupoPL
+
+![Grupo Creación 2](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/estructura_directorios.png)
+
+```bash
+sudo mkdir -p /srv/ftp/anon
+sudo chown -R ftp:ftp /srv/ftp/anon
+```
+
 ## 2. Creación de los usuarios
 Para crear los usuarios hago clik Add, les asigno una contraseña, y les declaro como miembros del grupo creado anteriormente. Los permisos y configuraciones del grupo serán heredados por estos dos usuarios.
 ### Usuario 1
