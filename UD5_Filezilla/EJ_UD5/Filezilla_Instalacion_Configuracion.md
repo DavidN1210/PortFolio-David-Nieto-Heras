@@ -49,6 +49,9 @@ Para configurar el puerto de escucha FTP y la dirección IP, tenemos que acceder
 # 6 Configurar inicio automático
 Utilizaremos dos comandos: `sudo systemctl enable filezilla-server`, para habilitar el inicio automático, y 
 `systemctl is-enabled filezilla-server`, para verificar que esta habilitado.
+
+![Conexión Servidor](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/inicio_auto.png)
+
 ```bash
 sudo systemctl enable filezilla-server
 systemctl is-enabled filezilla-server
