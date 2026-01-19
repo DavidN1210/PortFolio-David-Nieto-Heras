@@ -31,7 +31,7 @@ con el comando `sudo apt install filezilla -y`.
 ## Cambiar la dirección IP del servidor FTP
 Antes de realizar la conexión, tengo que configurar la dirección ip del servidor. Por ello, en la configuración de Filezilla Server he puesto como direccion ip 127.0.0.1 (localhost)
 
-![Dirección IP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/dirreccion_ip_servidor.png)
+![Dirección IP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/direccion_ip_servidor.png)
 
 ## Resultado de la conexión 
 He realizado la conexión desde Filezilla Client, introduciendo los siguientes datos:
@@ -43,10 +43,10 @@ He realizado la conexión desde Filezilla Client, introduciendo los siguientes d
 
 Y el resultado ha sido el siguiente por el lado del cliente:
 
-![Dirección IP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/resultado_client.png)
+![Cliente FTP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/resultado_client.png)
 
 Y por el lado del servidor:
 
-![Dirección IP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/resultado_servidor.png)
+![Servidor FTP](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/resultado_servidor.png)
 
 Como se puede ver en la última imagen, la conexión se realizo correctamente entre cliente-servidor
