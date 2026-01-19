@@ -1,4 +1,4 @@
-<img width="985" height="393" alt="image" src="https://github.com/user-attachments/assets/78eff67f-2845-4619-801c-2cded1e43739" /># Actividad 4: Configuración de acceso anónimo
+# Actividad 4: Configuración de acceso anónimo
 
 ## 1. Activar el acceso anónimo
 ### Creación del usuario anónimo
