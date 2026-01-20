@@ -7,11 +7,18 @@
 
 | Función | Descripción |
 |----------------|-------------|
-| **Despliegue (Deploy)** | Permite subir y desplegar aplicaciones `.war` o desde rutas locales. |
-| **Recarga (Reload)** | Recarga una aplicación sin reiniciar el servidor completo. |
-| **Parada / Inicio (Stop / Start)** | Detiene o inicia aplicaciones individuales. |
-| **Eliminación (Undeploy)** | Borra una aplicación del servidor. |
-| **Listado de aplicaciones** | Muestra todas las apps desplegadas, su estado y su ruta. |
+| **Despliegue** | Permite subir y desplegar aplicaciones `.war` o desde rutas locales. |
+| **Recargar aplicación** | Reinicia la aplicación sin reiniciar Tomcat. |
+| **Parar aplicación** | Detiene la ejecución de una aplicación sin eliminarla. |
+| **Replegar** | Borra completamente la aplicación del servidor. | 
+| **Expirar sesiones inactivas** | Finaliza sesiones que llevan más de X minutos sin actividad. | 
+| **Ver estado del servidor** | Muestra memoria, sesiones activas y datos de la JVM. | 
+| **Listar aplicaciones** | Muestra todas las aplicaciones desplegadas y sus controles. |
+| **Configurar** | Volver a leer los archivos de configuración de TLS |
+| **Diagnosticar (fallos de memoria)** | Herramienta para detectar fugas de memoria (no usar en producción). |
+| **Diagnosticar (Cifrados TLS)** | Enumerar los hosts virtuales TLS configurados y los cifrados para cada uno. |
+| **Diagnosticar (Certificados TLS)** | Lista las cadenas de certificados configuradas para cada host TLS. |
+| **Diagnosticar (Certificados confiables)** | Muestra los certificados raíz confiables configurados en el servidor. |
 
 ### Utilidad 
 * Permite comprobar el funcionamiento de despliegues sin usar comandos ni editar `webapps`
@@ -24,11 +31,10 @@
 
 | Función | Descripción |
 |----------------|-------------|
-| **Crear host virtual** | Permite definir nuevos hosts virtuales con su propio `appBase` |
+| **Crear host virtual** | Permite definir nuevos hosts |
 | **Eliminar host virtual** | Borra un host virtual existente. |
 | **Iniciar / Detener host** | Controla el estado de los hosts virtuales definidos. |
 | **Persistir configuración** | Guarda los cambios en los archivos XML de Tomcat.|
-| **Información del servidor** | Muestra detalles del entorno Tomcat y del sistema operativo. |
 
 ### Utilidad académica
 * Permite simular entornos `multi-tenant` (varios sitios en un solo servidor).
