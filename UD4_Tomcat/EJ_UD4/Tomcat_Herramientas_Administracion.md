@@ -1,5 +1,8 @@
 # Tomcat: Herramientas de administración — Manager y Host Manager
 ## Ficha Descriptiva Manager
+
+![Manager](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/manager_pagina.png)
+
 ### Acceso
 * **URL:** http://localhost:8080/manager/html
 * Requiere usuario con rol ``manager-gui`` definido en tomcat-users.xml.
@@ -23,7 +26,11 @@
 ### Utilidad 
 * Permite comprobar el funcionamiento de despliegues sin usar comandos ni editar `webapps`
 * Ideal para entornos de desarrollo y pruebas locales.
+  
 ## Ficha Descriptiva Host - Manager
+
+![Host-Manager](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/host_manager_pagina.png)
+
 ### Acceso
 * **URL:** http://localhost:8080/host-manager/html
 * Requiere usuario con rol ``admin-gui`` definido en tomcat-users.xml.
