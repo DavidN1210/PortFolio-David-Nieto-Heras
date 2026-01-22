@@ -5,7 +5,7 @@ Esta prueba se realizará con la configuración por defecto en `server.xml`.
 ![Server.xml 1](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/prueba1_server_xml.png)
 
 ## Prueba 2
-Esta prueba se realizará con una configuración, en `server.xml`, más avanzada que la anterior.
+Esta prueba se realizará con una configuración, en `server.xml`, más optimizada que la anterior.
 
 ![Server.xml 2](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/prueba2_server_xml.png)
 
@@ -34,6 +34,15 @@ ab -n 1000 -c 50 http://localhost:8080/HelloApp/
 
 ### Conclusión Prueba con ApacheBench
 
+Tras analizar los resultados de ambas configuraciones, se observa que:
+
+* El conector optimizado ofrece una ligera mejora en Requests per second y tiempo medio por petición.
+* La mejora más notable aparece en los percentiles altos (95% y 99%), donde el conector optimizado reduce significativamente la latencia.
+* Ninguna de las configuraciones presenta errores, lo que indica estabilidad en ambos casos.
+* El conector optimizado gestiona mejor los picos de carga, manteniendo tiempos más consistentes.
+* En resumen, aunque la diferencia en RPS es pequeña, el conector optimizado demuestra un comportamiento más robusto y estable bajo concurrencia elevada.
+
+
 ## 2. Prueba con curl --parallel
 La segunda prueba sera con `curl --parallel`, que es una funcionalidad de curl que permite enviar múltiples peticiones HTTP al mismo tiempo, simulando concurrencia real. Es muy útil para:
 
@@ -45,8 +54,8 @@ La segunda prueba sera con `curl --parallel`, que es una funcionalidad de curl q
 * **Estabilidad bajo carga real** → muestra si el servidor se mantiene estable cuando recibe muchas peticiones a la vez, sin bloquearse ni ralentizarse en exceso.
 
 ```bash
-yes "url = http://localhost:8080/HelloApp/" | head -n 1000 > urls.txt
-time curl --parallel --parallel-max 50 --config urls.txt
+yes "url = http://localhost:8080/HelloApp/" | head -n 1000 > urls.txt // Para generar el txt con 1000 lineas con la url 
+time curl --parallel --parallel-max 50 --config urls.txt // Lanza las 1000 peticiones simultáneas usando curl --parallel y muestra varios datos sobre el rendimiento para comparar configuraciones del conector.
 ```
 
 ### Resultado de la Prueba 1
@@ -57,7 +66,14 @@ time curl --parallel --parallel-max 50 --config urls.txt
 
 ![Prueba 2 Resultado Curl](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD4_Tomcat/img_UT4/prueba2_curl.png)
 
-### Conclusión Prueba con ApacheBench
+### Conclusión Prueba con curl --parallel
+Tras analizar los resultados de ambas configuraciones, se observa que:
+
+* El conector optimizado reduce el tiempo total de ejecución en un 44%, lo que indica una mejora clara en concurrencia real.
+* El tiempo de CPU (sys) también disminuye, lo que sugiere mejor eficiencia en el manejo de conexiones.
+* Ambos conectores responden correctamente a las 1000 peticiones, sin errores ni bloqueos.
+* La respuesta HTML fue consistente en todas las peticiones, confirmando estabilidad funcional.
+
 
 
 
