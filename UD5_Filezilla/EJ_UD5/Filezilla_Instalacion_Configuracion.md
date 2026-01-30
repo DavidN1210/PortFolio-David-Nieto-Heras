@@ -41,12 +41,12 @@ Para accede a la consola, buscaremos en el menú de aplicaciones `FileZilla Serv
 
 ![Conexión Servidor](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/filezilla_consola_admin.png)
 
-# 4. Configurar puerto de escucha FTP y la dirección IP
+## 4. Configurar puerto de escucha FTP y la dirección IP
 Para configurar el puerto de escucha FTP y la dirección IP, tenemos que acceder a la sección de `Server listeners` (Server -> Configure -> Server listeners)
 
 ![Conexión Servidor](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/img_UT5/filezilla_puerto_config.png)
 
-# 5 Configurar inicio automático
+## 5 Configurar inicio automático
 Utilizaremos dos comandos: `sudo systemctl enable filezilla-server`, para habilitar el inicio automático, y 
 `systemctl is-enabled filezilla-server`, para verificar que esta habilitado.
 
