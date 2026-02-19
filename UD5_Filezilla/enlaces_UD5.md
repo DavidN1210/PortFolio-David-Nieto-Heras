@@ -25,11 +25,6 @@ Esta práctica va de probar cómo funciona un servidor FTP en modo activo y en m
 
 **Enlace:** [Pruebas Activo y pasivo Filezilla](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/EJ_UD5/FileZilla_Pruebas_Activo_Y_Pasivo.md)
 
-### Práctica 6: Pruebas con clientes en línea de comandos
-La práctica consiste en usar un cliente FTP por línea de comandos (ftp, lftp o curl) para conectarte al servidor y realizar operaciones básicas como listar, subir y descargar archivos.
-
-**Enlace:** [Pruebas con clientes por comandos Filezilla](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/EJ_UD5/FileZilla_Pruebas_Clientes_Por_Comandos.md)
-
 ### Práctica 7: Pruebas con clientes gráficos
 La práctica consiste en usar un cliente FTP gráfico como FileZilla o WinSCP para conectarte al servidor y realizar transferencias de archivos en ambos sentidos. 
 
@@ -44,11 +39,6 @@ La práctica consiste en configurar FTPS en un servidor FTP mediante la generaci
 La actividad consiste en acceder al servidor FTP usando un navegador web y comprobar cómo funciona como cliente FTP.
 
 **Enlace:** [Navegador como cliente FTP Filezilla](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/EJ_UD5/Filezilla_Navegador_ClienteFTP.md)
-
-### Práctica 10: Integración de FTP con servidor web
-La práctica consiste en integrar el servidor FTP con el servidor web para poder publicar contenido web mediante FTP.
-
-**Enlace:** [Integración Filezilla](https://github.com/DavidN1210/PortFolio-David-Nieto-Heras/blob/main/UD5_Filezilla/EJ_UD5/FileZilla_Integracion_de_FTP)
 
 ### Práctica 11: Disponibilidad y buenas prácticas
 La práctica trata sobre asegurar la disponibilidad de un servidor FTP aplicando buenas prácticas de administración. Se revisan aspectos como límites de conexión, gestión de logs, copias de seguridad y configuración de firewall/NAT.
